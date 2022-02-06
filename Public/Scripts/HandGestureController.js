@@ -13,15 +13,16 @@
 //@input Component.Text question
 //@input string myText
 //@input Component.AudioComponent audio
+//@input Component.AudioComponent audio2
 
+script.getSceneObject().enabled = true;
 var labels = ["index_finger", "close", "victory"];
 var customMap = {
-//    open: script.openTriggers,
     close: script.closeTriggers,
-//    horns: script.hornsTriggers,
     index_finger: script.indexFingerTriggers,
     victory: script.victoryTriggers,
 };
+
 
 var custom = getNewQuestion();
 var correct = 0
@@ -71,14 +72,15 @@ function sendCustomTriggers(evt) {
     }
     
     if(customMap[evt] == customMap["index_finger"] && correct == 0){
-        //script.audio.play(1);        
+        script.audio.play(1);
         score += 1;
     }else if(customMap[evt] == customMap["victory"] && correct == 1){
-        //script.audio.play(1);        
+        script.audio.play(1);     
         score += 1;
     }else if(customMap[evt] == customMap["close"]){}
     else{
         score -= 1;
+        script.audio2.play(1);
     }
     
     custom = getNewQuestion();
@@ -96,7 +98,7 @@ function sendCustomTriggers(evt) {
 
 function init() {
     for (var i = 0; i < labels.length; i++) {
-        print("Event created for: " + labels[i]);
+        //print("Event created for: " + labels[i]);
         script.tracker.registerDescriptorStart(labels[i], generateTriggerResponse(labels[i]));
     }
 }

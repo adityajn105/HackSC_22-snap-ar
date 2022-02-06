@@ -3,7 +3,7 @@
     "document_id": "L4djh65wmPHwzLQadVTx",
     "original_document_id": "L4djh65wmPHwzLQadVTx",
     "version": "29",
-    "lastChanged": "1644122771037",
+    "lastChanged": "1644132074828",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -31,6 +31,12 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Behavior"
+                    ],
+                    [
+                        "Hand Gesture Resources"
+                    ],
                     [
                         "Hand Gesture Resources",
                         "Sound Effects"
@@ -145,9 +151,6 @@
                     [
                         "Scripts",
                         "MaterialDuplicator"
-                    ],
-                    [
-                        "Textures"
                     ],
                     [
                         "Textures",
@@ -655,6 +658,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "98",
+                    "uid": "1644126264773504:6247797",
+                    "name": "Files\/File182.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1031,7 +1042,11 @@
                 "41": "1644120683860367:8319379",
                 "42": "1644120760371268:8377558",
                 "43": "1644120791321319:8427481",
-                "44": "1644121404256545:208466"
+                "44": "1644121404256545:208466",
+                "45": "1644124556281565:3129191",
+                "46": "1644126112181449:5987129",
+                "47": "1644126265343790:6247813",
+                "48": "1644126559135790:6650894"
             }
         },
         "LayerComponent": {
@@ -1449,6 +1464,10 @@
                 {
                     "k": "179",
                     "v": "Files\/File179.pvr"
+                },
+                {
+                    "k": "182",
+                    "v": "Files\/File182.js"
                 }
             ]
         },
@@ -1667,6 +1686,10 @@
                     {
                         "k": "7744",
                         "v": "Prefabs\/Hand Victory Clone.oprfb"
+                    },
+                    {
+                        "k": "7748",
+                        "v": "Behavior.js"
                     }
                 ],
                 "hashes": [
@@ -1808,7 +1831,7 @@
                     },
                     {
                         "k": "380",
-                        "v": "30d1b1ae6106d8cd5f2b6ed19a6ee2e4"
+                        "v": "b2ce5f0f0a69e9c00eabb0d4b63a1d97"
                     },
                     {
                         "k": "381",
@@ -2037,15 +2060,26 @@
                     {
                         "k": "7747",
                         "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "7748",
+                        "v": "324d936bf1b61fe7a9ad8efc0bd63807"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-02-05T20:27:06",
+                        "lastModified": "2022-02-05T21:44:25",
                         "name": "Public",
-                        "hash": "81185bdc4b556f8c23f520d5b3658727",
+                        "hash": "998584838fb82663f944c30e37cf514a",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-02-05T21:44:24",
+                                "name": "Behavior.js",
+                                "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2022-02-05T18:48:08",
@@ -2422,9 +2456,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-02-05T20:45:57",
+                                "lastModified": "2022-02-05T21:58:37",
                                 "name": "Scripts",
-                                "hash": "0aff560a7ec62eb249055ba0cf326587",
+                                "hash": "c770e0429e0249a9fc6e972f724453e4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -2442,9 +2476,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-05T20:45:57",
+                                        "lastModified": "2022-02-05T21:58:37",
                                         "name": "HandGestureController.js",
-                                        "hash": "30d1b1ae6106d8cd5f2b6ed19a6ee2e4",
+                                        "hash": "b2ce5f0f0a69e9c00eabb0d4b63a1d97",
                                         "children": ""
                                     },
                                     {
@@ -3005,7 +3039,9 @@
                                         "originalId": "67",
                                         "publicId": "394",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "1b7f7e4a64b8bef93febecb944151e08"
+                                        }
                                     },
                                     {
                                         "name": "Horn-Outline",
@@ -3019,7 +3055,9 @@
                                         "originalId": "69",
                                         "publicId": "395",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "227d014e064256b3b1766aa7215c13f6"
+                                        }
                                     },
                                     {
                                         "name": "Open",
@@ -3047,7 +3085,9 @@
                                         "originalId": "72",
                                         "publicId": "397",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "5df0db404bdb31c0c6a550e4da6ae3a8"
+                                        }
                                     },
                                     {
                                         "name": "Open-Outline",
@@ -3061,7 +3101,9 @@
                                         "originalId": "74",
                                         "publicId": "398",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "a9f93bc2ad2f824c0fc6d05fa4655084"
+                                        }
                                     },
                                     {
                                         "name": "Index-Finger",
@@ -3089,7 +3131,9 @@
                                         "originalId": "77",
                                         "publicId": "400",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "6bc9d831e2ee03244f88e52b5fc8044c"
+                                        }
                                     },
                                     {
                                         "name": "Index-Finger-Outline",
@@ -3103,7 +3147,9 @@
                                         "originalId": "79",
                                         "publicId": "401",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "a1deae04485e58c9fb75aa5117225689"
+                                        }
                                     },
                                     {
                                         "name": "Victory",
@@ -3131,7 +3177,9 @@
                                         "originalId": "82",
                                         "publicId": "403",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "2f66ce70e482d0e208b7840f7f3ec266"
+                                        }
                                     },
                                     {
                                         "name": "Victory-Outline",
@@ -3145,7 +3193,9 @@
                                         "originalId": "84",
                                         "publicId": "404",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "14d5cfb934a69c02a8cae8b3c7f48a23"
+                                        }
                                     },
                                     {
                                         "name": "white",
@@ -3159,7 +3209,9 @@
                                         "originalId": "88",
                                         "publicId": "406",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "0c8dcfed2f50bb81ac5276a14967c005"
+                                        }
                                     },
                                     {
                                         "name": "Close",
@@ -3187,7 +3239,9 @@
                                         "originalId": "93",
                                         "publicId": "411",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "d5e62c4b894b69b9acb58de23393b53b"
+                                        }
                                     },
                                     {
                                         "name": "Close-Fill",
@@ -3201,7 +3255,9 @@
                                         "originalId": "103",
                                         "publicId": "435",
                                         "source": "",
-                                        "additional": ""
+                                        "additional": {
+                                            "originHash": "f4645beece1e3d43113c1f8c246ef561"
+                                        }
                                     }
                                 ]
                             },
@@ -3408,6 +3464,20 @@
                         "publicId": "18446744073709551615",
                         "source": "",
                         "additional": ""
+                    },
+                    {
+                        "name": "Behavior",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "98",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1644126264773504:6247797",
+                        "fileId": "182",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7748",
+                        "source": "C:\/Users\/Aditya Jain\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioCWioTXcEbOHr\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
@@ -3415,7 +3485,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1644121404256545:208466"
+                    "1644126559135790:6650894"
                 ]
             }
         },
